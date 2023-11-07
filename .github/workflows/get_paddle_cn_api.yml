@@ -1,0 +1,12 @@
+name: Get Paddle Chinese Api
+
+on: push
+
+jobs:
+  Paddle-Chinese-Api:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Run script
+        run: /gen_cn_api.sh
