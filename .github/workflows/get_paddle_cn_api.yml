@@ -9,4 +9,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: Run script
-        run: /gen_cn_api.sh
+        run: ./gen_cn_api.sh
